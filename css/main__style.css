@@ -1,0 +1,106 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    color: white !important;
+    font-size: 36px;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.836) !important;
+}
+
+.nav-link:hover {
+    color: whitesmoke !important;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-toggler {
+    background-color: whitesmoke;
+}
+
+.carousel-item {
+    height: 100vh;
+    background: no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url('./header-bg.jpg');
+    text-align: center;
+}
+
+.slider2 {
+    background-image: url('./hero-bg.jpg');
+}
+
+.slider3 {
+    background-image: url('./call-to-action-bg.jpg');
+}
+
+.carousel-caption {
+    bottom: 35%;
+}
+
+.carousel-caption a {
+    margin: 20px 0px;
+}
+
+.bounceInDown, .bounceInUp {
+    animation-duration: 3s !important;
+}
+
+.slideInRight {
+    animation-duration: 3s !important;
+}
+
+.slider2::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.527);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+} 
+
+.navbar.shrink {
+    background-color: #272729a9;
+    height: 70px;
+}
+
+.features-icons-icon {
+    margin: 0px 0px 20px 0px;
+}
+
+.features-icons-icon i{
+    font-size: 70px;
+    color: red;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-nav {
+        animation: none !important;
+    }
+    .navbar {
+        background-color: red;
+    }
+}
